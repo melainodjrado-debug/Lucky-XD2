@@ -15,7 +15,7 @@ function convertToBool(text, trueValue = 'true') {
 
 module.exports = {
   // ===== BOT CORE SETTINGS =====
-  SESSION_ID: settings.SESSION_ID || process.env.SESSION_ID || "",
+  SESSION_ID: settings.SESSION_ID || process.env.SESSION_ID || "king~ze9mqy8zqyx1",
   PREFIX: getConfig("PREFIX") || "." || settings.PREFIX,
   CHATBOT: getConfig("CHATBOT") || "on",
   BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "ʟᴜᴄᴋʏ-xᴅ",
@@ -24,7 +24,7 @@ module.exports = {
   BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",
 
   // ===== OWNER & DEVELOPER SETTINGS =====
-  OWNER_NUMBER: settings.OWNER_NUMBER || process.env.OWNER_NUMBER || "256789966218",
+  OWNER_NUMBER: settings.OWNER_NUMBER || process.env.OWNER_NUMBER || "2290161171335",
   OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "ʟᴜᴄᴋʏ ➋➊➑",
   DEV: process.env.DEV || "256789966218",
   DEVELOPER_NUMBER: '256789966218@s.whatsapp.net',
